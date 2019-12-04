@@ -34,7 +34,10 @@
             }
         },
         props: {
-            list: Array
+            list: {
+                type: Array,
+                default: () => []
+            }
         }
     }
 </script>
